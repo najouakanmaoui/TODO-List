@@ -14,7 +14,12 @@ This project is a simple Todo List application built using Django (backend) and 
 
 ### Install the required packages:
     pip install -r requirements.txt
-
+#### add .env file and fill these variables based on your local environment settings
+    BACKEND_DB_PASSWORD=''
+    BACKEND_DB_USER=''
+    BACKEND_DB_NAME=''
+    SECRET_KEY=""
+    
 ### Create the database:
     python manage.py migrate
 
